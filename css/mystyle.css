@@ -1,20 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee|Parisienne|Rammetto+One');
+
 * {
 	margin: 0;
 	padding: 0;
-	}
+}
 
 body {
-	background-color: #ffcccc;
+	background-color: #ededed;
 	max-width: 100%;
-	}
+	padding-bottom: 20px;
+}
 
 div {
-	width: 300px;
-	height: 50px;
-	margin: 0 auto;
+	width: 150px;
+	height: 40px;
 	float: right;
 	padding-top: 5px;
-	}
+}
 
 .icons {
 	width: 35px;
@@ -24,79 +26,89 @@ div {
 #instagram:hover {
 	width: 35px;
 	height: 35px;
-
 }
 
 #overwatch:hover {
 	width: 35px;
 	height: 35px;
-
 }
 
 #youtube:hover {
 	width: 35px;
 	height: 35px;
-
 }
+
 ul {
 	margin-top: 1px;
 	margin-bottom: 30px;
 	font-size: 18px;
 	width: 100%;
 	height: 50px;
-	background-color: #ff82dd;
+	background-color: #707070;
 	line-height: 50px
-	}
+}
 
 ul li {
 	float: left;
 	list-style-type: none;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	padding-right: 25px;
-	padding-left: 50px;
-	}
+	padding-right: 50px;
+	padding-left: 75px;
+}
 
 ul li a {
 	color: white;
 	text-decoration: none;
-	}
+}
 
 ul li a:hover {
-	color: purple;
-	font-weight: bold;
-	}
+	color: black;
+	font-weight: none;
+}
 
 
 h1 {
-	border:	4px dashed #ff68f4;
-	width: 600px;
+	border:	4px dashed #707070;
+	width: 400px;
 	margin: 20px auto;
 	text-align: center;
 	padding: 30px;
-	font-family: 'Yellowtail', cursive;
-	}
+	font-family: 'Parisienne', cursive;
+	font-size: 50px;
+}
 
 h2 {
 	text-align: center;
-	}
-
-h3 {
-	color: #a668ff; 
-	font-style: italic;
-	text-align: center;
-	font-family: 'Patrick Hand SC', bold;
-	font-size: 30px;
-	}
+	font-family: 'Rammetto One', cursive;
+	padding-bottom: 15px;
+}
 
 p {
-	font-family: 'Reenie Beanie', solid;
-	font-size: 20px;
-	}
+	text-align: center;
+	font-family: 'Handlee', none;
+}
 
 #guisketch {
 	border: none;
 	width: 100vw;
 	height: 50vh;
-	}
+}
 
+#remix {
+	float: center;
+	padding-left: 8%;
+	padding-bottom: 10px;
+}
+
+#glitch {
+	float: center;
+	padding-left: 4%;
+	padding-bottom: 10px;
+}
+
+#video {
+	float: center;
+	padding-left: 12%;
+	padding-bottom: 10px;
+}
