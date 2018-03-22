@@ -98,17 +98,20 @@ p {
 #remix {
 	float: center;
 	padding-left: 8%;
+	padding-right: 8%;
 	padding-bottom: 10px;
 }
 
 #glitch {
 	float: center;
 	padding-left: 4%;
+	padding-right: 4%;
 	padding-bottom: 10px;
 }
 
 #video {
 	float: center;
 	padding-left: 12%;
+	padding-right: 12%;
 	padding-bottom: 10px;
 }
