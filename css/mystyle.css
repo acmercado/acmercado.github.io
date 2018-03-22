@@ -39,8 +39,7 @@ div {
 }
 
 ul {
-	margin-top: 1px;
-	margin-bottom: 30px;
+	margin: 0 auto;
 	font-size: 18px;
 	width: 100%;
 	height: 50px;
@@ -51,6 +50,7 @@ ul {
 ul li {
 	float: left;
 	list-style-type: none;
+	margin: 0 auto;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	padding-right: 50px;
@@ -96,22 +96,19 @@ p {
 }
 
 #remix {
-	float: center;
-	padding-left: 8%;
-	padding-right: 8%;
-	padding-bottom: 10px;
+	position: static;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 
 #glitch {
-	float: center;
-	padding-left: 4%;
-	padding-right: 4%;
-	padding-bottom: 10px;
+	display: middle;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 
 #video {
-	float: center;
-	padding-left: 12%;
-	padding-right: 12%;
-	padding-bottom: 10px;
+	display: middle;
+	margin: 0 auto;
+	padding: 0 auto;
 }
