@@ -95,20 +95,28 @@ p {
 	height: 50vh;
 }
 
-#remix {
-	position: static;
+.portfolio {
 	margin: 0 auto;
 	padding: 0 auto;
 }
 
-#glitch {
-	display: middle;
-	margin: 0 auto;
-	padding: 0 auto;
+code span {
+	display: block;
+	line-height: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: pre;
+	font-family: monospace;
+	color: grey;
+	background: #ededed;
 }
 
-#video {
-	display: middle;
-	margin: 0 auto;
-	padding: 0 auto;
+code span a {
+	color: black;
+}
+
+code span a:hover {
+	color: white;
+	font-weight: none;
+	font-style: bold;
 }
