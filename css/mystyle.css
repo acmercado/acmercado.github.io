@@ -100,27 +100,6 @@ p {
 	padding: 0 auto;
 }
 
-code span {
-	display: block;
-	line-height: 10px;
-	font-size: 10px;
-	font-weight: bold;
-	white-space: pre;
-	font-family: monospace;
-	color: grey;
-	background: #ededed;
-}
-
-code span a {
-	color: black;
-}
-
-code span a:hover {
-	color: white;
-	font-weight: none;
-	font-style: bold;
-}
-
 h3 {
 	color: grey;
 	text-align: center;
