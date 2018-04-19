@@ -120,3 +120,15 @@ code span a:hover {
 	font-weight: none;
 	font-style: bold;
 }
+
+h3 {
+	color: grey;
+	text-align: center;
+	font-family: 'Handlee', none;
+}
+
+h3:hover {
+	color: black;
+	text-align: center;
+	font-family: 'Handlee', none;
+}
