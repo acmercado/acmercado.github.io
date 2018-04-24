@@ -111,3 +111,11 @@ h3:hover {
 	text-align: center;
 	font-family: 'Handlee', none;
 }
+
+#video_game {
+	padding-top: 10px;
+}
+
+#image_game {
+	padding-top: 10px;
+}
