@@ -8,7 +8,7 @@ function setup() {
 	noStroke();
 	colorMode(HSB);
 
-	for (let i = 0; i < 50; i++) {
+	for (let i = 0; i < 50; i++) {			//this is the trail
 		x[i] = 0;
 		y[i] = 0;
 	}
@@ -18,7 +18,7 @@ function draw() {
 	background(0, 0, 93);
 	noCursor();
 
-	for (let i = 0; i < 49; i++) {
+	for (let i = 0; i < 49; i++) {			//this is the trail
 		x[i] = x[i + 1];
 		y[i] = y[i + 1];
 
@@ -31,7 +31,7 @@ function draw() {
 }
 
 function mousePressed() {
-	col += 20;
+	col += 20;				//this changes the color of the circle
 	col %= 255;
 	print(col);
 }
