@@ -48,7 +48,8 @@ ul {
 }
 
 ul li {
-	float: left;
+	display: inline-block;
+	text-align: center;
 	list-style-type: none;
 	margin: 0 auto;
 	padding-top: 1px;
