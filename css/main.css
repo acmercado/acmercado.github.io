@@ -109,6 +109,10 @@ li a {
 	float: center;
 }
 
+.avatar {
+	border-radius: 50%;
+}
+
 h3 {
 	font-family: 'AaarghNormal';
 	font-weight: bold;
