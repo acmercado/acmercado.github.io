@@ -26,7 +26,7 @@ a {
 	text-decoration: none;
 }
 
-li a { 
+li a {
 	display: block;
 	padding: 10px 50px;
 	text-decoration: none;
@@ -38,13 +38,19 @@ li a {
 
 .contact {
 	display: inline-block;
-	padding: 10px 147px;
+	padding: 10px 105px;
 }
 
 .icons {
 	width: 37px;
 	height: 35px;
 	padding: 20px;
+	padding-top: 100px;
+}
+
+#bio:hover {
+	width: 37px;
+	height: 35px;
 }
 
 #email:hover {
@@ -79,7 +85,7 @@ li a {
 #guisketch {
 	border: none;
 	width: 100vw;
-	height: 95vh;
+	height: 92vh;
 }
 
 .portfolio {
@@ -93,39 +99,30 @@ li a {
 }
 
 .projects {
-	float: middle;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 3vh 3vw;
+	right: 6vw;
+	float: center;
 }
 
 .details {
-	float: middle;
-	padding-top: 10px;
-	padding-left: 10px;
-	margin-bottom: 25px;
-}
-
-#content {
-	float: right;
-	padding-right: 50px;
-	padding-bottom: 10px;
+	padding: 2vh 15vw;
+	float: center;
 }
 
 h3 {
 	font-family: 'AaarghNormal';
 	font-weight: bold;
 	font-style: normal;
+	font-size: 22px;
+	padding: 0px;
 }
 
 p {
 	font-family: 'DatalegreyaDot';
 	font-weight: bold;
 	font-style: normal;
-}
-
-div .details {
-	width: 375px;
-	padding-bottom: 20px;
+	font-size: 18px;
+	padding: 0px;
 }
 
 h1 {
@@ -134,4 +131,12 @@ h1 {
 	font-style: normal;
 	font-size: 40px;
 	text-decoration: underline;
+}
+
+p a {
+	font-family: 'DatalegreyaDot';
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: underline;
+	font-size: 18px;
 }
